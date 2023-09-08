@@ -1,34 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Newsletter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's News</title>
     <style>
-        /* Add your CSS styles here */
         body {
             font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
         }
-        .news-article {
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        article {
             margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Newsletter</h1>
-    
-    <div class="news-article">
-        <h2>Article 1</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis justo ut ex malesuada faucibus.</p>
-        <a href="#">Read more</a>
+    <header>
+        <h1>Today's News</h1>
+    </header>
+    <div class="container">
+        <article>
+            <h2>Headline 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc a iaculis consectetur, libero velit tempus lorem.</p>
+        </article>
+        <article>
+            <h2>Headline 2</h2>
+            <p>Nullam sit amet enim eu velit lacinia consectetur. Fusce consectetur malesuada dolor, non varius lorem egestas id.</p>
+        </article>
+        <article>
+            <h2>Headline 3</h2>
+            <p>Vestibulum ultricies tortor et quam malesuada, id blandit dolor euismod. Sed aliquam ligula quis ex dapibus.</p>
+        </article>
+        <!-- Add more articles as needed -->
     </div>
-
-    <div class="news-article">
-        <h2>Article 2</h2>
-        <p>Integer ac urna id libero cursus hendrerit non in justo. Fusce in ante nec ex euismod mattis.</p>
-        <a href="#">Read more</a>
-    </div>
-
-    <!-- Add more articles as needed -->
-
 </body>
 </html>
